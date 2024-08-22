@@ -1,0 +1,7 @@
+run = "node 12_nums_and_math.js"
+modules = ["nodejs-20"]
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "node 12_nums_and_math.js"]
